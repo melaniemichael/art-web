@@ -55,3 +55,28 @@ img {
 .shells, .rOtter{
     height: 410px;
 }
+
+.links{
+    display: flex;
+    width: 95%;
+    justify-content: flex-end;
+    position: absolute;
+    margin-top: 40px;
+}
+
+button:hover {background: rgba(225, 225, 225, 0.65);}
+
+.home, .contact{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    color: rgb(85, 85, 85);
+    background-color: inherit;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.home{
+    margin-right: 20px;
+}
+

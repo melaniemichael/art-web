@@ -34,7 +34,48 @@ h1{
     left: 400px;
 }
 
-form { 
+.links{
+  display: flex;
+  width: 95%;
+  justify-content: flex-end;
+  position: absolute;
+  margin-top: 40px;
+}
+
+button:hover {background: rgba(225, 225, 225, 0.65);}
+
+.home, .works{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px;
+  color: rgb(85, 85, 85);
+  background-color: inherit;
+  border: none;
+  border-radius: 3px;
+}
+
+.home{
+  margin-right: 20px;
+}
+
+.email{
+  display: flex;
+  margin: auto;
+  margin-top: 20%;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Source Code Pro', monospace;
+  font-size: 30px;
+  color: rgb(85, 85, 85);
+  margin: auto;
+  padding: 50px;
+}
+
+.bird{
+  max-width: 400px;
+}
+/* form { 
     max-width:420px; 
     margin: auto;
     margin-top: 250px; 
@@ -80,4 +121,5 @@ textarea {
   margin-top: -4px;
   font-weight: 700;
 }
-[type="submit"]:hover { background: rgb(146, 145, 145); }
+[type="submit"]:hover { background: rgb(146, 145, 145); } */
+
