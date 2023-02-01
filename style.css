@@ -51,7 +51,7 @@ button:hover {background: rgba(225, 225, 225, 0.65);}
 @media only screen and (max-width: 768px) {
     .container{
         width: 100%;
-        max-width: 768px;
+        max-width: 600px;
     }
 }
 
