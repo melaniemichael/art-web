@@ -75,51 +75,58 @@ h2{
 .bird{
   max-width: 400px;
 }
-/* form { 
-    max-width:420px; 
+
+@media (max-width: 800px){
+  .container{
+    max-width: 800px;
+  }
+
+  .title{
+    font-size: 25px;
+    margin-left: 10px;
+    max-width: 100px;
+  }
+
+  .contact{
+    font-size: 25px;
+    max-width: 300px;
+    left: 150px;
+  }
+
+  .links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    position: absolute;
+    right: 5px;
+    margin-top: 50px;
+    max-width: 100px;
+  }
+
+  .home, .works{
+      font-size: 18px;
+  }
+
+  .home{
+    margin-right: 0;
+  }
+
+  .bird{
+    max-width: 200px;
+  }
+
+  .email{
+    display: flex;
+    flex-wrap: wrap;
     margin: auto;
-    margin-top: 250px; 
+    margin-top: 40%;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  h2{
+    font-size: 20px;
+    margin: auto;
+    padding: 50px;
+  }
 }
-
-.feedback-input {
-  color: rgb(85, 85, 85);
-  font-family: 'Source Code Pro', monospace;
-  font-weight: 500;
-  font-size: 20px;
-  border-radius: 5px;
-  line-height: 22px;
-  background-color: transparent;
-  border:2px solid rgb(85, 85, 85);
-  transition: all 0.3s;
-  padding: 13px;
-  margin-bottom: 15px;
-  width: 100%;
-  box-sizing: border-box;
-  outline:0;
-}
-
-.feedback-input:focus { border: 2px solid 'Source Code Pro', monospace; }
-
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
-
-[type="submit"] {
-  font-family: 'Source Code Pro', monospace;
-  width: 100%;
-  background: rgb(85, 85, 85);;
-  border-radius:5px;
-  border: 0;
-  cursor: pointer;
-  color: white;
-  font-size: 24px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  transition: all 0.3s;
-  margin-top: -4px;
-  font-weight: 700;
-}
-[type="submit"]:hover { background: rgb(146, 145, 145); } */
-
