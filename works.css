@@ -102,15 +102,15 @@ button:hover {background: rgba(225, 225, 225, 0.65);}
 
     .title{
         font-size: 22px;
-        margin-left: 15%;
+        margin-left: 5%;
         max-width: 20%;
         margin-top: 10%;
     }
 
     .works{
-        font-size: 15px;
+        font-size: 20px;
         max-width: 40%;
-        left: 40%;
+        left: 35%;
         margin-top: 10%;
     }
 
@@ -128,7 +128,7 @@ button:hover {background: rgba(225, 225, 225, 0.65);}
         flex-wrap: wrap;
         width: 95%;
         position: absolute;
-        right: 15%;
+        right: 5%;
         margin-top: 10%;
         max-width: 18%;
     }

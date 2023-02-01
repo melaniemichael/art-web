@@ -83,15 +83,15 @@ h2{
 
   .title{
     font-size: 22px;
-    margin-left: 15%;
+    margin-left: 5%;
     max-width: 20%;
     margin-top: 10%;
   }
 
   .contact{
-    font-size: 15px;
+    font-size: 20px;
     max-width: 40%;
-    left: 40%;
+    left: 35%;
     margin-top: 10%;
   }
 
@@ -100,7 +100,7 @@ h2{
     flex-wrap: wrap;
     width: 95%;
     position: absolute;
-    right: 15%;
+    right: 5%;
     margin-top: 10%;
     max-width: 18%;
   }
