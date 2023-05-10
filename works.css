@@ -46,7 +46,7 @@ img {
     margin: 20px;
 }
 
-.pizza, .strawberries, .jellyfish, .pLeaf{
+.pizza, .strawberries, .jellyfish, .pLeaf, .bone, .pond{
     align-self: flex-end;
     height: 430px;
 }
@@ -91,7 +91,7 @@ button:hover {background: rgba(225, 225, 225, 0.65);}
         align-self: center;
     }
 
-    .pizza, .strawberries, .jellyfish, .pLeaf{
+    .pizza, .strawberries, .jellyfish, .pLeaf, .bone, .pond{
         align-self: center;
         height: auto;
     }
