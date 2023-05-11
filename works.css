@@ -46,12 +46,12 @@ img {
     margin: 20px;
 }
 
-.pizza, .strawberries, .jellyfish, .pLeaf, .bone, .pond{
+.pizza, .strawberries, .jellyfish, .pLeaf{
     align-self: flex-end;
     height: 430px;
 }
 
-.shells, .rOtter{
+.shells, .rOtter, .bone, .pond{
     height: 410px;
 }
 
